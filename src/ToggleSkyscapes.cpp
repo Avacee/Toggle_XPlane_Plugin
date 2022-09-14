@@ -124,7 +124,7 @@ int DoToggleSkyscapes(XPLMCommandRef commandRef, XPLMCommandPhase phase, void* r
 	if (idSkyscapes == XPLM_NO_PLUGIN_ID)
 	{
 		//TODO: Enter the signature for Enhanced Skyscapes below
-		idSkyscapes = XPLMFindPluginBySignature("**** ENTER THE ENHANCED SKYSCAPES SIGNATURE HERE ****");
+		idSkyscapes = XPLMFindPluginBySignature("BiologicalNanobot.enhanced_skyscapes");
 		//eg idSkyscapes = XPLMFindPluginBySignature("com.leecbaker.datareftool");
 	}
 	if (idSkyscapes != XPLM_NO_PLUGIN_ID)
